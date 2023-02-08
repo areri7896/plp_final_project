@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            position:center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .sign-form{
+            width: auto;
+            display: flex;
+            margin: auto;
+            border: 1px solid black;
+            background-color: black;
+            flex-direction: column;
+            align-items: center;
+            flex-direction: column;
+        }
+        .sign-form h1{
+            color: #fff;
+            text-decoration: none;
+            border:2px solid #fff;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+            padding: 5px;
+        }
+        .form input{
+            margin: 5px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        hr{
+            width: 50vw;
+            height: 2px;
+            background-color: #fff;
+        }
+        .btn{
+            background-color: orange;
+            border-radius: 10px;
+            padding: 5px;
+            margin-bottom :20px;
+        }
+        .btn>a{
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="sign-form" >
+        <h1>
+         Sign Up
+        </h1> 
+        <div  class="form">
+         <input type="text" value="First Name">
+         <input type="text" value="Second Name">
+         <input type="email" value="email">
+         <input type="email" value="Confirm Email">
+         <input type="password" value="password">
+         <input type="password" for="Confirm Password">
+         <input type="submit" value="Login">        
+        </div>
+        <hr>
+        <button class='btn'>Already Have an Account! <a href="index.html">Login here</a></button>
+     </div>
+    
+</body>
+</html>

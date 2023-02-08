@@ -1,0 +1,67 @@
+body{
+    margin-top: 50vh;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.log-form{
+    border: 1px solid black;
+    padding: 50px;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    width: auto;
+}
+.log-form h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    font-size: xx-large;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+}
+.form{
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+.form input{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.form label{
+    border: 1px solid ;
+    border-radius: 10px;
+    margin: inherit;
+    padding: 5px;
+    background-color: orange;
+    text-align: center;
+}
+hr{
+    width: 40vw;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+.btn{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
+    margin-bottom: 0px;
+}
+.btn>a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
